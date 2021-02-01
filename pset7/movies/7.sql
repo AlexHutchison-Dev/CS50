@@ -1,0 +1,1 @@
+SELECT title , rating From movies Join ratings ON movies.id = ratings.movie_id Where "year" = 2010 AND rating >= 0;

@@ -1,0 +1,111 @@
+:root {
+
+    /* Colour Plalette */
+    --c-grey: #2f3235;
+    --c-darkblue: #31708e;
+    --c-lightblue: #5085a5;
+    --c-brightblue: #8fc1e3;
+    --c-white: #f7f9fb;
+
+}
+
+body
+{
+    background-color: var(--c-white);
+    margin: 30px;
+
+}
+
+#navBrand
+{
+
+    font-family: 'Kristi', cursive;
+    font-size: 40px;
+    color: black;
+
+}
+.nav {
+    display: flex;
+    width: 100vh;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Grid Borders */
+.col-12
+{
+ border: 0px;
+
+}
+.my-col
+{
+    background-color: var(--c-brightblue);
+    margin: 20px;
+    padding: -10px;
+    border: 10px  solid  var(--c-grey);
+    justify-content: center;
+}
+
+.row
+{
+
+    margin-bottom: 30px;
+}
+
+.row-eq-height{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+.my-container
+{
+    justify-content: center;
+}
+.card-deck {
+    display:flex;
+    justify-content: space-evenly;
+}
+.card-port
+{
+    /*height: 430px !important;*/
+    width:25vw;
+}
+h1
+ {
+    /* Formatting */
+
+    font-family: 'Kristi', cursive;
+    font-size: 75px;
+    color: var(--c-darkblue);
+ }
+ .h1smaller
+ {
+     /* Formatting */
+
+    font-family: 'Kristi', cursive;
+    font-size: 60px;
+    color: var(--c-darkblue);
+    margin: 100px;
+ }
+    .gallery-row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+ .card
+ {
+
+     min-width: 27vh;
+ }
+ .cycling-content {
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+     margin:0 auto;
+ }
+ .home-image {
+     margin-top: 55px;
+     height: 100%;
+ }
